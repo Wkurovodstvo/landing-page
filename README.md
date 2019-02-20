@@ -1,2 +1,2 @@
 # Landing-Page
-it will be our own Landing Page
+this will be our own Landing Page
