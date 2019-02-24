@@ -1,0 +1,45 @@
+@mixin flex-row-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopMenu-nav{
+  @include flex-row-center;
+  position: fixed;
+  font-weight: bold;
+  font-family: "product-sans-bold", sans-serif;
+  height: 110px;
+  width: 100%;
+  z-index: 3;
+  .TopMenu-nav__nav-link{
+    @include flex-row-center;
+    padding: 0 24px;
+    font-size: 16px;
+    align-items: center;
+    height: 100%;
+    transition: color 0.4s ease;
+    &:hover{
+      color: #000;
+    }
+  }
+  .TopMenu-nav__nav-link_account{
+    @include flex-row-center;
+    color: #bbb;
+    position: absolute;
+    padding: 0 40px;
+    height: 110px;
+    right: 0;
+    transition: color 0.4s ease;
+    &:hover{
+      color: #000;
+    }
+  }
+  .TopMenu-nav__nav-image{
+    transition: all 0.4s cubic-bezier(0.4, 2, 0.68, 1);
+    &:hover{
+      transform: scale(1.16) rotate(-6deg)
+    }
+  }
+}
