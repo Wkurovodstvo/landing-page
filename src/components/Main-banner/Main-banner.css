@@ -1,7 +1,7 @@
 .main-banner {
   background: url(./img/main-banner-bg@2x.jpg) center center no-repeat / cover;
-  height: 100vh;
-  padding: 0px;
+  height: 750px;
+  padding: 56px 87px;
   margin: 0px;
   position: relative;
 }
@@ -63,4 +63,40 @@
 .star8 {
   bottom: 20%;
   right: 24%;
+}
+
+.ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes big-spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.ring img {
+  animation: big-spin 120s linear infinite;
+}
+
+header {
+  line-height: 150px;
+  height: 150px;
+  color: aliceblue;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+header a {
+  color: aliceblue;
+  font-size: 30px;
+  text-decoration: none;
 }

@@ -1,5 +1,16 @@
-body {
+@font-face {font-family: "BookmaniaW01-Reg";
+  src: url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.eot");
+  src: url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.svg#BookmaniaW01-Reg") format("svg");
+}
+
+body, p, a, ul, li, h1, h2, h3 {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  user-select: none;
+  font-family: "BookmaniaW01-Reg", sans-serif;
 }
