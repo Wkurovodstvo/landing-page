@@ -11,10 +11,10 @@ export default class SectionOne extends Component {
         <img src={star1} alt="" className="star star2"/>
         <img src={star1} alt="" className="star star3"/>
         <img src={star1} alt="" className="star star4"/>
-        <img src={star2} alt="" className="star star5"/>
-        <img src={star2} alt="" className="star star6"/>
-        <img src={star2} alt="" className="star star7"/>
-        <img src={star2} alt="" className="star star8"/>
+        <img src={star2} alt="" className="star star5 star-secondary"/>
+        <img src={star2} alt="" className="star star6 star-secondary"/>
+        <img src={star2} alt="" className="star star7 star-secondary"/>
+        <img src={star2} alt="" className="star star8 star-secondary"/>
       </div>
     )
   }

@@ -1,21 +1,66 @@
 .main-banner {
   background: url(./img/main-banner-bg@2x.jpg) center center no-repeat / cover;
   height: 100vh;
-  width: 100%;
   padding: 0px;
   margin: 0px;
+  position: relative;
 }
 
 @keyframes star {
-  0% {opacity: 1;}
-  100% {opacity: 0;}
+  0% {opacity: 0.8;}
+  100% {opacity: 0.2;}
 }
 
 .star {
+  position: absolute;
   transition: transform 1s, opacity 1s;
   animation: star 1s ease-in-out infinite alternate-reverse;
 }
 
+.star-secondary {
+  animation: star 1s ease-out .5s infinite alternate-reverse;
+}
+
 .star:hover {
   transform: rotate(180deg)
+}
+
+.star1 {
+  bottom: 20%;
+  left: 24%;
+}
+
+.star2 {
+  top: 30%;
+  right: 31%;
+}
+
+.star3 {
+  top: 5%;
+  left: 44%;
+}
+
+.star4 {
+  bottom: 10%;
+  right: 41%;
+}
+
+.star5 {
+  top: 20%;
+  left: 20%;
+}
+
+.star6 {
+  top: 25%;
+  right: 14%;
+}
+
+.star7 {
+  bottom: 44%;
+  right: 44%;
+}
+
+.star8 {
+  bottom: 20%;
+  right: 24%;
 }
