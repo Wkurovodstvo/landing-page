@@ -1,0 +1,13 @@
+@import "../sass/fonts";
+
+@include font-face("ProductSans", "../../fonts/ProductSansRegular/ProductSansRegular", 400, normal, eot woff ttf);
+@include font-face("ProductSans", "../../fonts/ProductSansBold/ProductSansBold", 800, normal, eot woff ttf);
+
+$color-light: #bbb;
+$color-white: #fff;
+$color-black: #000;
+$color-chat: #635DF9;
+
+$product: "ProductSans", sans-serif;
+
+

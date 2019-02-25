@@ -1,45 +1,79 @@
-@mixin flex-row-center{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
+@import "../../sass/mixins";
+@import "../../sass/variables";
 
 .TopMenu-nav{
   @include flex-row-center;
+  top: 0;
   position: fixed;
   font-weight: bold;
-  font-family: "product-sans-bold", sans-serif;
+  font-family: $product;
   height: 110px;
   width: 100%;
   z-index: 3;
-  .TopMenu-nav__nav-link{
+  transition: height 0.4s ease, background-color 0.4s ease;
+  &__nav-link{
     @include flex-row-center;
     padding: 0 24px;
     font-size: 16px;
     align-items: center;
     height: 100%;
     transition: color 0.4s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-light;
     &:hover{
-      color: #000;
+      color: $color-black;
     }
   }
-  .TopMenu-nav__nav-link_account{
+  &__nav-link_account{
     @include flex-row-center;
-    color: #bbb;
     position: absolute;
     padding: 0 40px;
     height: 110px;
     right: 0;
-    transition: color 0.4s ease;
+    transition: color 0.4s ease, transform 0.4s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-light;
     &:hover{
-      color: #000;
+      color: $color-black;
     }
   }
-  .TopMenu-nav__nav-image{
-    transition: all 0.4s cubic-bezier(0.4, 2, 0.68, 1);
+  &__nav-image{
+    transition: transform 0.4s cubic-bezier(0.4, 2, 0.68, 1);
+    margin: 0 40px;
+    padding: 0;
+    & img{
+      width: 44px;
+    }
     &:hover{
       transform: scale(1.16) rotate(-6deg)
+    }
+  }
+  &__nav-button{
+    @include button;
+    position: absolute;
+    box-shadow: 0 20px 30px -10px rgba(98,92,249,0.4);
+    background: radial-gradient(circle at center, #655fff 0%, #4945bb 100%);
+    transform: translateY(-80px) scale(0.9);
+    opacity: 0;
+    right: 15px;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  &_scrolled{
+    background-color: $color-white;
+    height: 80px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.04);
+    .TopMenu-nav__nav-link_account{
+      transform: translateX(-150px);
+    }
+    .TopMenu-nav__nav-button{
+      transform: translateY(0) scale(0.9);
+      opacity: 1;
+      &:hover{
+        box-shadow: 0 30px 60px -10px rgba(98,92,249,0.4);
+        transform: translateY(-4px) scale(0.9);
+      }
     }
   }
 }

@@ -1,0 +1,35 @@
+@import "./variables";
+
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-col-center{
+  @include flex-center;
+  flex-direction: column;
+}
+
+@mixin flex-row-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button{
+  @include flex-center;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 20px 30px -10px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  background: $color-black;
+  padding: 14px 32px;
+  letter-spacing: 0;
+  font-weight: 900;
+  font-size: 16px;
+  color: $color-white;
+  transition: all 0.4s ease;
+}
