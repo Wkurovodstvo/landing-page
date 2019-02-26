@@ -5,7 +5,7 @@ import star2 from './img/star2.svg'
 import logo from './img/owl-logo.PNG'
 import ring from './img/big-circle.svg'
 
-export default class SectionOne extends Component {
+export default class MainBanner extends Component {
   render() {
     return (
       <div className="main-banner">
