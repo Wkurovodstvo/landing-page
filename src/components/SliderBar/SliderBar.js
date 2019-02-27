@@ -1,32 +1,25 @@
 import React, {Component} from "react";
 import "./SliderBar.scss";
-import Slider from "react-slick";
+import Flickity from "flickity";
 
 class SliderBar extends Component{
 
     render(){
-        const settings = {
-            dots: true,
-            infinite: false,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        };
+        let flkty = new Flickity( '.main-carousel', {
+            draggable: true,
+            wrapAround: true,
+            pageDots: true,
+            prevNextButtons: false
+        });
         return (
-            <Slider {...settings}>
-                <div>
-                    1
-                </div>
-                <div>
-                    2
-                </div>
-                <div>
-                    3
-                </div>
-                <div>
-                    4
-                </div>
-            </Slider>
+            <div className="main-carousel SliderBar-container">
+                <div className="carousel-cell SliderBar-container__slide">1</div>
+                <div className="carousel-cell SliderBar-container__slide">2</div>
+                <div className="carousel-cell SliderBar-container__slide">3</div>
+                <div className="carousel-cell SliderBar-container__slide">4</div>
+                <div className="carousel-cell SliderBar-container__slide">5</div>
+                <div className="carousel-cell SliderBar-container__slide">6</div>
+            </div>
         );
     }
 

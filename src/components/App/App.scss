@@ -26,6 +26,10 @@ body{
 .container {
   height: 100vh;
   text-align: center;
+  /*.App-content{
+    width: 100%;
+    overflow: hidden;
+  }*/
   .App-chat{
     @include flex-center;
     position: fixed;

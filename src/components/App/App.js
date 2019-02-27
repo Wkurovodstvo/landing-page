@@ -47,7 +47,9 @@ export default class App extends Component {
             <polyline points="19 12 12 19 5 12"/>
           </svg>
         </header>
-        <SliderBar/>
+          <div className={"App-content"}>
+              <SliderBar/>
+          </div>
         <div className={"App-chat"}>
           <i className="far fa-comment fa-2x"/>
         </div>

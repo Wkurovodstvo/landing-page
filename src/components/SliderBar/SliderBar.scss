@@ -1,0 +1,41 @@
+@import "../../sass/mixins";
+@import "../../sass/variables";
+
+
+
+.SliderBar-container{
+  height: 380px;
+  margin-top: 150px;
+  overflow: hidden;
+  &__slide{
+    box-shadow: 0 40px 120px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    max-width: 90%;
+    margin: 0 80px;
+    width: 800px;
+    background-color: #635DF9;
+    height: 300px;
+  }
+  & ol{
+    @include flex-center;
+    cursor: pointer;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100px;
+    width: 400px;
+    padding: 0;
+  }
+  & ol .dot{
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    margin: 0 6px;
+    height: 4px;
+    width: 40px;
+  }
+  & ol .is-selected{
+    background: rgba(0,0,0,0.4);
+  }
+}
