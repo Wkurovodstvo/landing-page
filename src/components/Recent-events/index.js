@@ -18,23 +18,23 @@ export default class RecentEvents extends Component {
               <h4>Adobe Creative Jam</h4>
               <strong>Orlando, FL</strong>  
               <strong>Oct 25, 2018</strong>  
-              <span><i class="fas fa-arrow-circle-right"></i></span>
+              <span><i className="fas fa-arrow-circle-right"></i></span>
             </a>
             <a href="" className="event">
               <h4>Blue Right Makers Series</h4>
               <strong>Dayton, OH</strong>  
               <strong>Nov 6, 2018</strong>  
-              <span><i class="fas fa-arrow-circle-right"></i></span>
+              <span><i className="fas fa-arrow-circle-right"></i></span>
             </a>
             <a href="" className="event">
               <h4>Awwwards NYC</h4>
               <strong>NYC, NY</strong>  
               <strong>Nov 16, 2018</strong>  
-              <span><i class="fas fa-arrow-circle-right"></i></span>
+              <span><i className="fas fa-arrow-circle-right"></i></span>
             </a>
           </div>
 
-          <p>If you have an event or organization that would benefit from a presentation or workshop about the design process, responsive design, typography, communication, collaboration, design systems, and more, I’d love to help!</p>
+          <p className="margin">If you have an event or organization that would benefit from a presentation or workshop about the design process, responsive design, typography, communication, collaboration, design systems, and more, I’d love to help!</p>
 
           <a href="/" className="recent-events__button">
             Let's talk
