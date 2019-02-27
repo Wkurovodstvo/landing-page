@@ -19,7 +19,7 @@
   position: relative;
   z-index: 1;
   font-size: 40px;
-  width: 50%;
+  width: 70%;
 }
 
 .about-us__description p {
@@ -28,7 +28,8 @@
   font-family: GTWalsheimPro, sans-serif;
   font-size: 21px;
   margin: 50px 0 80px 0;
-  width: 50%;
+  width: 70%;
+  line-height: 31px;
 }
 
 .about-us__button {

@@ -5,6 +5,7 @@
   padding: 56px 87px;
   margin: 0px;
   position: relative;
+  letter-spacing: 3px;
 }
 
 @keyframes stars {
