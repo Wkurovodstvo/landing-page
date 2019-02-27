@@ -3,6 +3,7 @@ import MainBanner from '../Main-banner'
 import AboutUs from '../About-us'
 import RecentWorks from '../Recent-works'
 import RecentEvents from '../Recent-events'
+import Social from '../Social'
 import './App.css'
 
 export default class App extends Component {
@@ -13,6 +14,7 @@ export default class App extends Component {
         <AboutUs />
         <RecentWorks />
         <RecentEvents />
+        <Social />
       </div>
     )
   }
