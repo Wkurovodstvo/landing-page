@@ -10,9 +10,9 @@
   position: relative;
   text-align: left;
   color: rgb(33, 66, 97);
+  padding: 100px 50px 100px 100px;
   width: 50%;
   margin: 32px 16px 0 0;
-  padding: 100px;
 }
 
 .about-us__description h2 {

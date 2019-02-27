@@ -7,6 +7,15 @@
        url("//db.onlinewebfonts.com/t/805b1856592b2c1dc0869da944ec7e86.svg#BookmaniaW01-Reg") format("svg");
 }
 
+@font-face {font-family: "BookmaniaW01-Bold";
+  src: url("//db.onlinewebfonts.com/t/5a7f00159af1c352cbceee004e726dba.eot");
+  src: url("//db.onlinewebfonts.com/t/5a7f00159af1c352cbceee004e726dba.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/5a7f00159af1c352cbceee004e726dba.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/5a7f00159af1c352cbceee004e726dba.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/5a7f00159af1c352cbceee004e726dba.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/5a7f00159af1c352cbceee004e726dba.svg#BookmaniaW01-Bold") format("svg");
+}
+
 @font-face {
   font-family: 'fonte73a7681cc15b40722a27b271c78a453';
   src:  url('https://nomail.com.ua/files/eot/e73a7681cc15b40722a27b271c78a453.eot?#iefix') format('embedded-opentype'),
@@ -16,7 +25,7 @@
   
 @font-face { font-family: 'GTWalsheimPro';  src: local('GTWalsheimPro'), url('https://nomail.com.ua/files/woff/e73a7681cc15b40722a27b271c78a453.woff') format('woff'); }
 
-body, p, a, ul, li, h1, h2, h3, div {
+body, p, a, ul, li, h1, h2, h3, div, span {
   box-sizing: border-box;
   padding: 0;
   margin: 0;

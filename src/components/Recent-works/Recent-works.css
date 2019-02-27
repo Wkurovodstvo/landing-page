@@ -1,0 +1,83 @@
+.recent-works {
+  background: url(./img/recent-work@2x.jpg) center center no-repeat / cover;
+  margin-top: 32px;
+  padding: 80px 50px;
+}
+
+.recent-works__description {
+  color: #faf7eb;
+}
+
+.recent-works__description h2 {
+  font-size: 40px;
+  font-family: BookmaniaW01-Reg, sans-serif;
+}
+
+.recent-works__description p {
+  padding: 50px 0;
+  width: 70%;
+  margin: auto;
+  font-size: 21px;
+  line-height: 31px;
+}
+
+.recent-works__works {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.work-card {
+  padding: 25px 25px 100px 25px;
+  position: relative;
+  max-width: 300px;
+  background: #faf7eb;
+}
+
+.work-card a {
+  text-decoration: none;
+  color: #214261;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.work-card h3 {
+  padding: 20px 0;
+  text-align: left;
+  font-size: 31px;
+}
+
+.work-card p {
+  text-align: left;
+  font-size: 21px;
+  font-family: GTWalsheimPro;
+}
+
+.work-card img {
+  width: 100%;
+  opacity: .8;
+  transition: opacity .3s;
+}
+
+.work-card span {
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-transform: uppercase;
+  padding: 20px;
+  background: #dbbd7f;
+  width: 100%;
+  font-family: GTWalsheimPro;
+  letter-spacing: 1.5px;
+  color: #faf7eb;
+}
+
+.work-card:hover span {
+  color: #214261;
+}
+
+.work-card:hover img {
+  opacity: 1;
+}

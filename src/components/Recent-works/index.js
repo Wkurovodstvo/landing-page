@@ -19,6 +19,7 @@ export default class RecentWorks extends Component {
               <img src={financeImg} alt=""/>
               <h3>Designing a marketing concept for a financial software company</h3>
               <p>In this case study I detail my thinking and process behind creating a responsive marketing website concept for a financial software startup.</p>
+              <span>Read the case study</span>
             </a>
           </div>
 
@@ -27,6 +28,7 @@ export default class RecentWorks extends Component {
               <img src={bcfgImg} alt=""/>
               <h3>Helping behavioral scientists create Behavior Change for Good</h3>
               <p>I recently shared a case study describing the process for creating an interactive digital platform and responsive marketing site for Behavior Change for Good.</p>
+              <span>Read the case study</span>
             </a>
           </div>
 
@@ -35,6 +37,7 @@ export default class RecentWorks extends Component {
               <img src={petsImg} alt=""/>
               <h3>Creating a pet service based e-commerce UI kit for AdobeXD</h3>
               <p>Adobe recently hired me to create a robust e-commerce and marketing site UI kit for users of AdobeXD. You can now read about my process for designing the kit.</p>
+              <span>Read the case study</span>
             </a>
           </div>
         </div>
