@@ -1,11 +1,37 @@
 .social {
-
+  display: flex;
+  flex-flow: row wrap;
+  color:#214261;
+  margin-top: 32px;
 }
 
 .social__follow {
+  padding: 60px;
+  background: #dbbd7f url(./img/follow-bg.png) center center no-repeat / cover;
+  text-align: left;
+}
 
+.social__follow h4 {
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.social__follow ul {
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+.social__follow ul li {
+  padding: 5px;
+}
+
+.social__link {
+  text-decoration: none;
+  color: #214261;
+  font-size: 21px;
+  font-family: GTWalsheimPro;
 }
 
 .social__describe {
-  
+
 }
