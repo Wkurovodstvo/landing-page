@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import MainBanner from '../Main-banner'
 import AboutUs from '../About-us'
 import RecentWorks from '../Recent-works'
+import RecentEvents from '../Recent-events'
 import './App.css'
 
 export default class App extends Component {
@@ -11,6 +12,7 @@ export default class App extends Component {
         <MainBanner />
         <AboutUs />
         <RecentWorks />
+        <RecentEvents />
       </div>
     )
   }

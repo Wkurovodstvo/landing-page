@@ -1,0 +1,101 @@
+.recent-events {
+  background: #dbbd7f url(./img/tiny-moon.png) bottom right no-repeat;
+  padding: 50px;
+  position: relative;
+  background-size: 161px;
+}
+
+.recent-events__content {
+  position: relative;
+  z-index: 1;
+  color: #214261;
+  padding: 0px 0px 50px 300px;
+  text-align: left;
+}
+
+.recent-events__content h2 {
+  font-size: 31px;
+}
+
+.recent-events__content h3 {
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-size: 27px;
+}
+
+.recent-events__content p {
+  font-size: 21px;
+  padding: 30px 0;
+}
+
+.events {
+  border-top: 2px solid #214261;
+  display: table;
+  width: 100%;
+}
+
+.event {
+  text-decoration: none;
+  color: #214261;
+  font-size: 21px;
+  display: table-row;
+  transition: color .3s;
+}
+
+.event h4, .event strong, .event span {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: 15px 0;
+  border-bottom: 2px solid #214261;
+}
+
+.event h4 {
+  text-transform: none;
+}
+
+.event span i {
+  color: #fff;
+  background: #214261;
+  border-radius: 10px;
+  transition: background .3s, color .3s;
+}
+
+.event:hover {
+  color: #fff;
+}
+
+.event:hover span i {
+  color: #214261;
+  background: #fff;
+}
+
+.ring-container {
+  background-size: 161px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.events-ring {
+  box-sizing: border-box;
+  width: 48.8372093%;
+  left: -25.58139535%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+@keyframes big-spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.events-ring img {
+  animation: big-spin 90s linear infinite;
+  width: 100%;
+}

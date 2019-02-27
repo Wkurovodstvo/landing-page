@@ -25,7 +25,7 @@
   
 @font-face { font-family: 'GTWalsheimPro';  src: local('GTWalsheimPro'), url('https://nomail.com.ua/files/woff/e73a7681cc15b40722a27b271c78a453.woff') format('woff'); }
 
-body, p, a, ul, li, h1, h2, h3, div, span {
+body, p, a, ul, li, h1, h2, h3, h4, h5, h6, div, span {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
