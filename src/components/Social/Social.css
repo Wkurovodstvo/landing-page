@@ -37,21 +37,26 @@
 
 .social__link:hover {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: underline; 
+  /* TODO: bug: underline doesn't disappear on mouse out */
 }
 
 .social__describe {
-  padding: 50px;
+  padding: 60px;
   background: url(./img/featured-text@2x.jpg) center center no-repeat / cover;
   color: #fff;
   width: 70%;
   margin-left: 16px;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: left;
 }
 
 .social__describe_link {
   color: #dbbd7f;
   text-decoration: none;
 }
+
 .social__describe_link:hover {
   color: #fff;
   text-decoration: underline;

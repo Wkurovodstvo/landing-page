@@ -8,12 +8,12 @@ export default class Social extends Component {
         <div className="social__follow">
           <h4>Follow me</h4>
           <ul>
-            <a href="/" className="social__link dribble"><li>dribbble</li></a>
-            <a href="/" className="social__link behance"><li>behance</li></a>
-            <a href="/" className="social__link facebook"><li>facebook</li></a>
-            <a href="/" className="social__link twitter"><li>twitter</li></a>
-            <a href="/" className="social__link instagram"><li>instagram</li></a>
-            <a href="/" className="social__link medium"><li>medium</li></a>
+            <a href="https://dribbble.com/" className="social__link"><li>dribbble</li></a>
+            <a href="/" className="social__link"><li>behance</li></a>
+            <a href="/" className="social__link"><li>facebook</li></a>
+            <a href="/" className="social__link"><li>twitter</li></a>
+            <a href="/" className="social__link"><li>instagram</li></a>
+            <a href="/" className="social__link"><li>medium</li></a>
           </ul>
         </div>
 
