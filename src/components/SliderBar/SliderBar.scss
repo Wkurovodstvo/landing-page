@@ -1,12 +1,15 @@
 @import "../../sass/mixins";
 @import "../../sass/variables";
 
-
+.section{
+  padding-top: 140px;
+}
 
 .SliderBar-container{
-  height: 380px;
-  margin-top: 150px;
+  height: 615px;
   overflow: hidden;
+  outline: none;
+  cursor: grab;
   &__slide{
     box-shadow: 0 40px 120px rgba(0,0,0,0.2);
     border-radius: 4px;
@@ -15,8 +18,49 @@
     max-width: 90%;
     margin: 0 80px;
     width: 800px;
-    background-color: #635DF9;
-    height: 300px;
+    height: 515px;
+    cursor: pointer;
+    &-darken{
+      background: rgba(0,0,0,0.3);
+      transition: all 0.4s ease;
+      position: absolute;
+      content: "";
+      opacity: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      &:hover{
+        opacity: 1;
+      }
+    }
+    &:hover{
+      .SliderBar-container__slide__button{
+        opacity: 1;
+        top: 25px;
+        right: 25px;
+        box-shadow: 0 20px 30px -10px rgba(0,0,0,0.2);
+      }
+    }
+    &__button{
+      position: absolute;
+      top: 34px;
+      right: 34px;
+      padding: 0;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      border-width: 0;
+      background-color: $color-white;
+      transition: all 0.4s ease;
+      opacity: 0;
+      cursor: pointer;
+      color: $color-chat;
+    }
+  }
+  &__slide-img{
+    max-width: 100%;
+    height: 100%;
   }
   & ol{
     @include flex-center;
@@ -26,6 +70,7 @@
     height: 100px;
     width: 400px;
     padding: 0;
+    user-select: none;
   }
   & ol .dot{
     background: rgba(0,0,0,0.1);
@@ -34,6 +79,7 @@
     margin: 0 6px;
     height: 4px;
     width: 40px;
+    list-style-type: none;
   }
   & ol .is-selected{
     background: rgba(0,0,0,0.4);
