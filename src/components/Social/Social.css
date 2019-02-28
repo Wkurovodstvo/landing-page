@@ -1,6 +1,7 @@
 .social {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
   color:#214261;
   margin-top: 32px;
 }
@@ -26,13 +27,13 @@
 }
 
 .social__follow ul li {
-  padding: 5px;
+  padding: 7px;
 }
 
 .social__link {
   text-decoration: none;
   color: #214261;
-  font-size: 21px;
+  font-size: 23px;
 }
 
 .social__link:hover {
@@ -45,11 +46,13 @@
   padding: 60px;
   background: url(./img/featured-text@2x.jpg) center center no-repeat / cover;
   color: #fff;
-  width: 70%;
   margin-left: 16px;
   font-size: 27px;
+  width: 70%;
   font-weight: bold;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .social__describe_link {
