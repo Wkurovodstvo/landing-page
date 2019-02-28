@@ -1,4 +1,27 @@
 .contact {
   display: flex;
   flex-flow: row wrap;
+  margin-top: 32px;
+}
+
+.contact-form {
+  background: url(./img/contact-form@2x.jpg) center center no-repeat / cover;
+  padding: 40px;
+  color: #fff;
+  text-align: left;
+  width: 50%;
+}
+
+#contact-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.half {
+  width: 100%;
+}
+
+.half label, .half input, .half textarea{
+  display: block;
+  width: 100%;
 }
