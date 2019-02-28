@@ -1,6 +1,6 @@
 .social {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   color:#214261;
   margin-top: 32px;
 }
@@ -9,11 +9,15 @@
   padding: 60px;
   background: #dbbd7f url(./img/follow-bg.png) center center no-repeat / cover;
   text-align: left;
+  width: 30%;
+  margin-right: 16px;
+  font-family: GTWalsheimPro, sans-serif;
 }
 
 .social__follow h4 {
   text-transform: uppercase;
   padding-bottom: 30px;
+  font-size: 23px;
 }
 
 .social__follow ul {
@@ -29,9 +33,26 @@
   text-decoration: none;
   color: #214261;
   font-size: 21px;
-  font-family: GTWalsheimPro;
+}
+
+.social__link:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .social__describe {
+  padding: 50px;
+  background: url(./img/featured-text@2x.jpg) center center no-repeat / cover;
+  color: #fff;
+  width: 70%;
+  margin-left: 16px;
+}
 
+.social__describe_link {
+  color: #dbbd7f;
+  text-decoration: none;
+}
+.social__describe_link:hover {
+  color: #fff;
+  text-decoration: underline;
 }
