@@ -17,11 +17,40 @@
   flex-wrap: wrap;
 }
 
-.half {
+.contact-div {
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.contact-div label {
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.contact-div textarea {
+  resize: none;
+  height: 60px;
+}
+
+.full {
   width: 100%;
 }
 
-.half label, .half input, .half textarea{
+.half {
+  width: 50%;
+}
+
+.contact-input{
   display: block;
   width: 100%;
+  padding: 0 10px;
+  font-size: 21px;
+  outline: 0;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.contact-input:focus {
+  ;
 }
