@@ -55,14 +55,24 @@ export default class Contact extends Component {
               <input type="text" id="launch" placeholder="Ex. January 15th" className="contact-input"/>
             </div>
 
-            <div className="contact-div full">
-              <input type="submit" value="Submit" className="contact-input"/>
+            <div className="contact-div half">
+              <input type="submit" value="Submit" className="contact-input submit"/>
             </div>
           </form>
         </div>
 
         <div className="get-in-touch">
+          <h2>Get in touch</h2>
 
+          <p>Hi there! Thank you so much for your interest in working together.</p>
+
+          <p>I believe your website should celebrate what makes you unique, connect you with new people who will love what you do, and foster stronger relationships with your existing customers.</p>
+
+          <p>I’d love to hear about your web or product design project. I also do front-end development work, mainly focused on building responsive Wordpress-based sites.</p>
+
+          <p>I don't always respond to every email I receive, but if your project sounds like a good fit I will get back to you within 2 business days.</p>
+
+          <p>Reaching out with an invitation to speak, or just want to say hey? Drop me a line at <a href="hello@owltastic.com">hello@owltastic.com</a>.</p>
         </div>
       </div>
     )

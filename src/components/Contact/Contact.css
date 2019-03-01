@@ -49,8 +49,30 @@
   outline: 0;
   height: 40px;
   margin-top: 10px;
+  text-align: ;
 }
 
 .contact-input:focus {
-  ;
+  -webkit-appearance: textfield;
 }
+
+.submit {
+  font-family: GTWalsheimPro, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #214261;
+  background: #dbbd7f;
+  border-radius: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: none;
+}
+
+.submit:hover {
+  background: #faf7eb;
+}
+
+.get-in-touch
