@@ -1,0 +1,81 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.Footer-container{
+  font-family: $product;
+  padding: 80px 0 60px 0;
+  width: 1100px;
+  margin: 0 auto;
+  h3{
+    letter-spacing: -0.5px;
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: bold;
+    color: $color-black;
+  }
+  a{
+    text-decoration: none;
+    color: $color-light;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  @include flex-row-around;
+  align-items: start;
+  &__back{
+    &_hidden{
+      opacity: 0;
+    }
+  }
+  &__logo{
+    cursor: pointer;
+    @include flex-col-start-start;
+    img {
+      transform: scale(0.9);
+      transition: all 0.4s cubic-bezier(0.4, 2, 0.68, 1);
+      margin-bottom: 10px;
+    }
+    a{
+      display: block;
+      text-align: left;
+      width: 120px;
+    }
+    &:hover{
+      .Footer-container__back_hidden{
+        opacity: 1;
+        transition: opacity 0.4s ease;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 13px;
+      }
+      img{
+        transform: rotate(40deg);
+        transition: transform 0.4s ease;
+      }
+    }
+  }
+  &__column{
+    @include flex-col-start-between;
+    a{
+      padding: 6px 0;
+    }
+    h3{
+      margin-bottom: 10px;
+    }
+  }
+  &__desc{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    color: $color-blue;
+    span{
+      color: $color-light;
+    }
+  }
+}

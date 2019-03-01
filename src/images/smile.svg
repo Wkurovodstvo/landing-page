@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-General-/-Smile" transform="translate(-2.000000, -2.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <rect id="Combined-Shape" opacity="0.3" x="0" y="0" width="20" height="20" rx="10"></rect>
+                <path d="M4.16794971,12.5547002 C3.86159725,12.0951715 3.98577112,11.4743022 4.4452998,11.1679497 C4.90482849,10.8615972 5.52569784,10.9857711 5.83205029,11.4452998 C6.9890854,13.1808525 8.35433129,14 10,14 C11.6456687,14 13.0109146,13.1808525 14.1679497,11.4452998 C14.4743022,10.9857711 15.0951715,10.8615972 15.5547002,11.1679497 C16.0142289,11.4743022 16.1384028,12.0951715 15.8320503,12.5547002 C14.3224187,14.8191475 12.3543313,16 10,16 C7.64566871,16 5.67758127,14.8191475 4.16794971,12.5547002 Z" id="Path-56"></path>
+            </g>
+        </g>
+    </g>
+</svg>

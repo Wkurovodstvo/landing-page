@@ -11,10 +11,47 @@
   flex-direction: column;
 }
 
+@mixin flex-col-start-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
 @mixin flex-row-center{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-col-center-start{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+@mixin flex-col-start-start{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+
+
+@mixin flex-row-start-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+@mixin flex-row-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -32,4 +69,9 @@
   font-size: 16px;
   color: $color-white;
   transition: all 0.4s ease;
+}
+
+@mixin section{
+  padding-top: 140px;
+  position: relative;
 }

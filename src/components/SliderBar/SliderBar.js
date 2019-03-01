@@ -18,7 +18,7 @@ class SliderBar extends Component{
             prevNextButtons: false
         });
         return (
-            <section className={"section"}>
+            <section className={"section"} id={"work"}>
                 <div className="main-carousel SliderBar-container">
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://configtree.co" target={"_blank"}>

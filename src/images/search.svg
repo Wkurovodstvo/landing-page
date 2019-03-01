@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-General-/-Search" transform="translate(-4.000000, -4.000000)" fill="url(#radialGradient-1)" fill-rule="nonzero">
+            <g id="Group" transform="translate(4.000000, 4.000000)">
+                <path d="M10.2928932,12.7071068 C9.90236893,12.3165825 9.90236893,11.6834175 10.2928932,11.2928932 C10.6834175,10.9023689 11.3165825,10.9023689 11.7071068,11.2928932 L15.7071068,15.2928932 C16.0976311,15.6834175 16.0976311,16.3165825 15.7071068,16.7071068 C15.3165825,17.0976311 14.6834175,17.0976311 14.2928932,16.7071068 L10.2928932,12.7071068 Z" id="Path-2" opacity="0.3"></path>
+                <path d="M7,12 C9.76142375,12 12,9.76142375 12,7 C12,4.23857625 9.76142375,2 7,2 C4.23857625,2 2,4.23857625 2,7 C2,9.76142375 4.23857625,12 7,12 Z M7,14 C3.13400675,14 0,10.8659932 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,10.8659932 10.8659932,14 7,14 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

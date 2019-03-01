@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import './App.scss';
 import TopMenu from "../TopMenu/TopMenu";
 import SliderBar from "../SliderBar/SliderBar";
+import ProcessBar from "../ProcessBar/ProcessBar";
+import FeaturesBar from "../FeaturesBar/FeaturesBar";
+import MemberBar from "../MemberBar/MemberBar";
+import PricingBar from "../PricingBar/PricingBar";
+import BottomHeader from "../BottomHeader/BottomHeader";
+import Footer from "../Footer/Footer";
 import Mac from "../../images/macbook.png";
 
 export default class App extends Component {
@@ -49,6 +55,12 @@ export default class App extends Component {
         </header>
           <div className={"App-content"}>
               <SliderBar/>
+              <ProcessBar/>
+              <FeaturesBar/>
+              <MemberBar/>
+              <PricingBar/>
+              <BottomHeader/>
+              <Footer/>
           </div>
         <div className={"App-chat"}>
           <i className="far fa-comment fa-2x"/>

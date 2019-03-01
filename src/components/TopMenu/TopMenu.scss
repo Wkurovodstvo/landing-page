@@ -47,14 +47,14 @@
       width: 44px;
     }
     &:hover{
-      transform: scale(1.16) rotate(-6deg)
+      transform: scale(1.16) rotate(-6deg);
     }
   }
   &__nav-button{
     @include button;
     position: absolute;
     box-shadow: 0 20px 30px -10px rgba(98,92,249,0.4);
-    background: radial-gradient(circle at center, #655fff 0%, #4945bb 100%);
+    background: $color-button-blue;
     transform: translateY(-80px) scale(0.9);
     opacity: 0;
     right: 15px;

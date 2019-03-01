@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.785714,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.616035,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-Communication-/-Mail-opened" transform="translate(-3.000000, -2.000000)">
+            <g id="Group" transform="translate(3.000000, 2.000000)">
+                <path d="M3,0 L15,0 C15.5522847,-1.01453063e-16 16,0.44771525 16,1 L16,10 C16,10.5522847 15.5522847,11 15,11 L3,11 C2.44771525,11 2,10.5522847 2,10 L2,1 C2,0.44771525 2.44771525,1.01453063e-16 3,0 Z M4.5,3 C4.22385763,3 4,3.22385763 4,3.5 C4,3.77614237 4.22385763,4 4.5,4 L10.5,4 C10.7761424,4 11,3.77614237 11,3.5 C11,3.22385763 10.7761424,3 10.5,3 L4.5,3 Z M4.5,5 C4.22385763,5 4,5.22385763 4,5.5 C4,5.77614237 4.22385763,6 4.5,6 L7.5,6 C7.77614237,6 8,5.77614237 8,5.5 C8,5.22385763 7.77614237,5 7.5,5 L4.5,5 Z" id="Combined-Shape" fill="url(#radialGradient-1)" opacity="0.420340402"></path>
+                <path d="M0.792745277,4.57253826 L9,10.5 L17.2072547,4.57253826 C17.4311176,4.4108595 17.7436609,4.46126971 17.9053396,4.68513259 C17.9668779,4.77033951 18,4.87277228 18,4.97787787 L18,15 C18,16.1045695 17.1045695,17 16,17 L2,17 C0.8954305,17 1.3527075e-16,16.1045695 0,15 L1.44328993e-15,4.97787787 C1.53210409e-15,4.70173549 0.223857625,4.47787787 0.5,4.47787787 C0.605105586,4.47787787 0.707538362,4.51099993 0.792745277,4.57253826 Z" id="Combined-Shape" fill="url(#radialGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

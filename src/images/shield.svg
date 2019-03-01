@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="128.799364%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.776401),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="116.099773%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.861328),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-General-/-Shield-protected" transform="translate(-3.000000, 0.000000)">
+            <g id="Group" transform="translate(3.000000, 0.000000)">
+                <path d="M-3.99680289e-15,2.28571429 L8.57231518,0.652892346 C8.85489812,0.599067025 9.14510188,0.599067025 9.42768482,0.652892346 L18,2.28571429 L18,12.9553048 C18,16.2747482 16.3023167,19.3636085 13.5,21.1428571 L9.61258073,23.6110599 C9.23869148,23.8484499 8.76130852,23.8484499 8.38741927,23.6110599 L4.5,21.1428571 C1.69768332,19.3636085 -6.69891278e-15,16.2747482 -7.10542736e-15,12.9553048 L-3.99680289e-15,2.28571429 Z" id="Path-50" fill="url(#radialGradient-1)" opacity="0.3"></path>
+                <path d="M11.8125,10.285851 C12.4354479,10.2953931 12.9375,10.803352 12.9375,11.4285714 L12.9375,14.8571429 C12.9375,15.4883254 12.4258254,16 11.7946429,16 L6.20535714,16 C5.57417457,16 5.0625,15.4883254 5.0625,14.8571429 L5.0625,11.4285714 C5.0625,10.803352 5.56455205,10.2953931 6.1875,10.285851 L6.1875,9.66964286 C6.1875,8.116342 7.44669914,6.85714286 9,6.85714286 C10.5533009,6.85714286 11.8125,8.116342 11.8125,9.66964286 L11.8125,10.285851 Z M9,8 C8.06801948,8 7.3125,8.75551948 7.3125,9.6875 L7.3125,10.2857143 L10.6875,10.2857143 L10.6875,9.6875 C10.6875,8.75551948 9.93198052,8 9,8 Z" id="Combined-Shape" fill="url(#radialGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

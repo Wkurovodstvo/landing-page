@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.571429,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.833333,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.666667,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-Devices-/-Display#3" transform="translate(-3.000000, -5.000000)">
+            <g id="Group" transform="translate(3.000000, 5.000000)">
+                <polygon id="Combined-Shape" fill="url(#radialGradient-1)" opacity="0.3" points="2 2 2 10 16 10 16 2"></polygon>
+                <path d="M8,14 L8,11 C8,10.4477153 8.44771525,10 9,10 C9.55228475,10 10,10.4477153 10,11 L10,14 L11.5,14 C11.7761424,14 12,14.2238576 12,14.5 C12,14.7761424 11.7761424,15 11.5,15 L6.5,15 C6.22385763,15 6,14.7761424 6,14.5 C6,14.2238576 6.22385763,14 6.5,14 L8,14 Z" id="Combined-Shape" fill="url(#radialGradient-2)" opacity="0.3"></path>
+                <path d="M2,2 L2,10 L16,10 L16,2 L2,2 Z M2.25,0 L15.75,0 C16.9926407,0 18,0.8954305 18,2 L18,10 C18,11.1045695 16.9926407,12 15.75,12 L2.25,12 C1.00735931,12 0,11.1045695 0,10 L0,2 C0,0.8954305 1.00735931,0 2.25,0 Z" id="Combined-Shape" fill="url(#radialGradient-3)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

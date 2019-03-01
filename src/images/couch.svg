@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="15px" viewBox="0 0 22 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.250000,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.363636,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-Home-/-Couch" transform="translate(-1.000000, -5.000000)">
+            <g id="Group" transform="translate(1.000000, 5.000000)">
+                <path d="M5,15 L3,15 C3,12.2385763 5.23857625,11 8,11 L14,11 C16.7614237,11 19,12.2385763 19,15 L17,15 C17,13.3431458 15.6568542,13 14,13 L8,13 C6.34314575,13 5,13.3431458 5,15 Z" id="Path-61" fill="url(#radialGradient-1)" fill-rule="nonzero" opacity="0.3"></path>
+                <path d="M22,3 L20.173913,3 C19.0693435,3 18.173913,3.8954305 18.173913,5 L18.173913,7 C18.173913,7.55228475 17.7261978,8 17.173913,8 L4.86956522,8 C4.31728047,8 3.86956522,7.55228475 3.86956522,7 L3.86956522,5 C3.86956522,3.8954305 2.97413472,3 1.86956522,3 L0,3 C-2.22044605e-16,1.34314575 1.34314575,0 3,0 L19,0 C20.6568542,0 22,1.34314575 22,3 Z" id="Path" fill="url(#radialGradient-2)" opacity="0.3"></path>
+                <path d="M22,5 L22,10 C22,11.6568542 20.6568542,13 19,13 L3,13 C1.34314575,13 2.22044605e-16,11.6568542 0,10 L0,5 L1.86956522,5 L1.86956522,7 C1.86956522,8.65685425 3.21271097,10 4.86956522,10 L17.173913,10 C18.8307673,10 20.173913,8.65685425 20.173913,7 L20.173913,5 L22,5 Z" id="Combined-Shape" fill="url(#radialGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

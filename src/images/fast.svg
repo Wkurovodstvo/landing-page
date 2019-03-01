@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="130.309021%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.767407),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="150%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.666667),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-General-/-Thunder-move" transform="translate(-1.000000, -3.000000)">
+            <g id="Group" transform="translate(1.000000, 3.000000)">
+                <path d="M15.3740377,16.9389434 L21.2226499,8.16602515 C21.4524142,7.82137863 21.3592838,7.35572662 21.0146373,7.12596228 C20.8914367,7.04382852 20.7466809,7 20.5986122,7 L16,7 L16,1.47708173 C16,1.06286817 15.6642136,0.727081728 15.25,0.727081728 C14.9992351,0.727081728 14.7650616,0.85240758 14.6259623,1.06105658 L8.7773501,9.83397485 C8.54758575,10.1786214 8.64071616,10.6442734 8.98536267,10.8740377 C9.10856331,10.9561715 9.25331908,11 9.40138782,11 L14,11 L14,16.5229183 C14,16.9371318 14.3357864,17.2729183 14.75,17.2729183 C15.0007649,17.2729183 15.2349384,17.1475924 15.3740377,16.9389434 Z" id="Path-3" fill="url(#radialGradient-1)"></path>
+                <path d="M3.5,2 L8.5,2 C9.32842712,2 10,2.67157288 10,3.5 C10,4.32842712 9.32842712,5 8.5,5 L3.5,5 C2.67157288,5 2,4.32842712 2,3.5 C2,2.67157288 2.67157288,2 3.5,2 Z M3.5,14 L8.5,14 C9.32842712,14 10,14.6715729 10,15.5 C10,16.3284271 9.32842712,17 8.5,17 L3.5,17 C2.67157288,17 2,16.3284271 2,15.5 C2,14.6715729 2.67157288,14 3.5,14 Z M1.5,8 L5.5,8 C6.32842712,8 7,8.67157288 7,9.5 C7,10.3284271 6.32842712,11 5.5,11 L1.5,11 C0.671572875,11 1.01453063e-16,10.3284271 0,9.5 C-1.01453063e-16,8.67157288 0.671572875,8 1.5,8 Z" id="Combined-Shape" fill="url(#radialGradient-2)" opacity="0.3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

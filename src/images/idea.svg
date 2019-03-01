@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.948346,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.750000,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#655FFF" offset="0%"></stop>
+            <stop stop-color="#4945BB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Stockholm-icons-/-Home-/-Bulb#1" transform="translate(-4.000000, -1.000000)">
+            <g id="Group" transform="translate(4.000000, 1.000000)">
+                <circle id="Combined-Shape" fill="url(#radialGradient-1)" opacity="0.3" cx="8" cy="8" r="8"></circle>
+                <path d="M10.5297296,10 L5.46184488,10 L7.97583492,16.4645458 L10.5297296,10 Z M6.56799533,18.3624463 L2.53815512,8 L13.4702704,8 L9.37449643,18.3674279 L7.97594051,17.814912 L6.56799533,18.3624463 Z" id="Path-69" fill="url(#radialGradient-2)" fill-rule="nonzero" opacity="0.3"></path>
+                <path d="M6,21 L10,21 L10,21 C10,22.1045695 9.1045695,23 8,23 L8,23 C6.8954305,23 6,22.1045695 6,21 Z" id="Rectangle-72-Copy-2" fill="#0015FF" opacity="0.3"></path>
+                <path d="M5,19 C4.44771525,19 4,18.5522847 4,18 C4,17.4477153 4.44771525,17 5,17 C4.44771525,17 4,16.5522847 4,16 C4,15.4477153 4.44771525,15 5,15 L11,15 C11.5522847,15 12,15.4477153 12,16 C12,16.5522847 11.5522847,17 11,17 C11.5522847,17 12,17.4477153 12,18 C12,18.5522847 11.5522847,19 11,19 C11.5522847,19 12,19.4477153 12,20 C12,20.5522847 11.5522847,21 11,21 L5,21 C4.44771525,21 4,20.5522847 4,20 C4,19.4477153 4.44771525,19 5,19 Z" id="Combined-Shape" fill="url(#radialGradient-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
