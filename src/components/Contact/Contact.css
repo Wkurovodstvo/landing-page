@@ -1,6 +1,6 @@
 .contact {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   margin-top: 32px;
 }
 
@@ -10,6 +10,12 @@
   color: #fff;
   text-align: left;
   width: 50%;
+  margin-right: 16px;
+}
+
+.contact-form h2 {
+  font-size: 37px;
+  padding: 40px 20px;
 }
 
 #contact-form {
@@ -49,7 +55,6 @@
   outline: 0;
   height: 40px;
   margin-top: 10px;
-  text-align: ;
 }
 
 .contact-input:focus {
@@ -75,4 +80,26 @@
   background: #faf7eb;
 }
 
-.get-in-touch
+.get-in-touch {
+  background: #dbbd7f;
+  width: 50%;
+  margin-left: 16px;
+  padding: 60px;
+  color: #214261;
+  text-align: left;
+}
+
+.get-in-touch h2 {
+  padding: 40px 0 20px;
+  font-size: 41px;;
+}
+
+.get-in-touch p {
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 21px;
+}
+
+.get-in-touch a {
+  color: inherit;
+}
