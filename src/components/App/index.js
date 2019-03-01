@@ -5,6 +5,7 @@ import RecentWorks from '../Recent-works'
 import RecentEvents from '../Recent-events'
 import Social from '../Social'
 import Contact from '../Contact';
+import Footer from '../Footer'
 import './App.css'
 
 export default class App extends Component {
@@ -17,6 +18,7 @@ export default class App extends Component {
         <RecentEvents />
         <Social />
         <Contact />        
+        <Footer />
       </div>
     )
   }

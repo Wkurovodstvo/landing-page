@@ -1,0 +1,33 @@
+.footer {
+  background: url(./img/footer-bg@2x.jpg) center center no-repeat / cover;
+  padding: 80px 40px;
+  margin-top: 32px;
+  color: #fff;
+  font-size: 31px;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.working {
+  text-align: left;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.logo-span {
+  color: #dbbd7f;
+}
+
+.copyright {
+  width: 25%;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 25px 0;
+}

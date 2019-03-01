@@ -98,8 +98,14 @@
   font-family: sans-serif;
   padding: 20px;
   font-size: 21px;
+  line-height: 31px;
 }
 
 .get-in-touch a {
   color: inherit;
+  transition: color .3s;
+}
+
+.get-in-touch a:hover {
+  color: #fff;
 }
