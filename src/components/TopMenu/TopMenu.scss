@@ -7,14 +7,14 @@
   position: fixed;
   font-weight: bold;
   font-family: $product;
+  font-size: 20px;
   height: 110px;
   width: 100%;
   z-index: 3;
   transition: height 0.4s ease, background-color 0.4s ease;
   &__nav-link{
     @include flex-row-center;
-    padding: 0 24px;
-    font-size: 16px;
+    padding: 0 40px;
     align-items: center;
     height: 100%;
     transition: color 0.4s ease;
@@ -67,6 +67,11 @@
     .TopMenu-nav__nav-link_account{
       transform: translateX(-150px);
     }
+    @media (max-width: 600px) {
+      .TopMenu-nav__nav-image{
+        transform: translateX(-150px);
+      }
+    }
     .TopMenu-nav__nav-button{
       transform: translateY(0) scale(0.9);
       opacity: 1;
@@ -75,5 +80,11 @@
         transform: translateY(-4px) scale(0.9);
       }
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .hide-mobile {
+    display:none !important
   }
 }

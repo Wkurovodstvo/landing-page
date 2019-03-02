@@ -22,8 +22,8 @@ class SliderBar extends Component{
                 <div className="main-carousel SliderBar-container">
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://configtree.co" target={"_blank"}>
-                            <div className={"SliderBar-container__slide-darken"}/>
-                            <button className={"carousel-cell SliderBar-container__slide__button"}>
+                            <div className={"SliderBar-container__slide-darken hide-mobile"}/>
+                            <button className={"carousel-cell SliderBar-container__slide__button hide-mobile"}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                      strokeLinejoin="round" className="feather feather-arrow-up-right icon">
@@ -36,8 +36,8 @@ class SliderBar extends Component{
                     </div>
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://deximal.com" target={"_blank"}>
-                            <div className={"SliderBar-container__slide-darken"}/>
-                            <button className={"carousel-cell SliderBar-container__slide__button"}>
+                            <div className={"SliderBar-container__slide-darken hide-mobile"}/>
+                            <button className={"carousel-cell SliderBar-container__slide__button hide-mobile"}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                      strokeLinejoin="round" className="feather feather-arrow-up-right icon">
@@ -50,8 +50,8 @@ class SliderBar extends Component{
                     </div>
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://dwelve.netlify.com" target={"_blank"}>
-                            <div className={"SliderBar-container__slide-darken"}/>
-                            <button className={"carousel-cell SliderBar-container__slide__button"}>
+                            <div className={"SliderBar-container__slide-darken hide-mobile"}/>
+                            <button className={"carousel-cell SliderBar-container__slide__button hide-mobile"}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                      strokeLinejoin="round" className="feather feather-arrow-up-right icon">
@@ -64,8 +64,8 @@ class SliderBar extends Component{
                     </div>
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://mobydish.com" target={"_blank"}>
-                            <div className={"SliderBar-container__slide-darken"}/>
-                            <button className={"carousel-cell SliderBar-container__slide__button"}>
+                            <div className={"SliderBar-container__slide-darken hide-mobile"}/>
+                            <button className={"carousel-cell SliderBar-container__slide__button hide-mobile"}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                      strokeLinejoin="round" className="feather feather-arrow-up-right icon">
@@ -78,8 +78,8 @@ class SliderBar extends Component{
                     </div>
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://mobydish.com" target={"_blank"}>
-                            <div className={"SliderBar-container__slide-darken"}/>
-                            <button className={"carousel-cell SliderBar-container__slide__button"}>
+                            <div className={"SliderBar-container__slide-darken hide-mobile"}/>
+                            <button className={"carousel-cell SliderBar-container__slide__button hide-mobile"}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                      strokeLinejoin="round" className="feather feather-arrow-up-right icon">
@@ -92,8 +92,8 @@ class SliderBar extends Component{
                     </div>
                     <div className="carousel-cell SliderBar-container__slide">
                         <a href="https://visualsofearth.com" target={"_blank"}>
-                            <div className={"SliderBar-container__slide-darken"}/>
-                            <button className={"carousel-cell SliderBar-container__slide__button"}>
+                            <div className={"SliderBar-container__slide-darken hide-mobile"}/>
+                            <button className={"carousel-cell SliderBar-container__slide__button hide-mobile"}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                      fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                      strokeLinejoin="round" className="feather feather-arrow-up-right icon">

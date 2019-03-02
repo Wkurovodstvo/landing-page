@@ -5,7 +5,7 @@ class PricingBar extends Component{
 
     render() {
         return(
-            <section className={"section section-gray"} id={"price"}>
+            <section className={"section section-gray"} id={"pricing"}>
                 <div className={"PricingBar-title"}>
                     <h2>Simple pricing</h2>
                     <p>
@@ -22,7 +22,7 @@ class PricingBar extends Component{
                         </div>
                         <h3>Single-page website</h3>
                         <p>A concise website similar to this one, or
-                            <a>these ones.</a>
+                            <a href={"#these"}> these ones.</a>
                         </p>
                     </div>
                     <div className={"PricingBar-container__card purple bigger"}>

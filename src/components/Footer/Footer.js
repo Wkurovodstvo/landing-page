@@ -8,29 +8,29 @@ class Footer extends Component{
         return(
             <footer>
                 <div className={"Footer-container"}>
-                    <div className={"Footer-container__logo"}>
-                        <a href={"#"}>
+                    <div className={"Footer-container__logo hide-mobile"}>
+                        <a href={"#home"}>
                             <img src={Logo} alt={"Logo"}/>
                             <p className={"Footer-container__back_hidden"}>Back to top</p>
                         </a>
                     </div>
                     <div className={"Footer-container__column"}>
                         <h3>Product</h3>
-                        <a href={"#"}>Process</a>
-                        <a href={"#"}>Features</a>
-                        <a href={"#"}>Pricing</a>
+                        <a href={"#process"}>Process</a>
+                        <a href={"#features"}>Features</a>
+                        <a href={"#pricing"}>Pricing</a>
                     </div>
                     <div className={"Footer-container__column"}>
                         <h3>Support</h3>
-                        <a href="#">Live chat</a>
-                        <a href={"#"}>Email us</a>
-                        <a href={"#"}>Q&A's</a>
+                        <a href={"#chat"}>Live chat</a>
+                        <a href={"#email"}>Email us</a>
+                        <a href={"#qa"}>Q&A's</a>
                     </div>
                     <div className={"Footer-container__column"}>
                         <h3>Connect</h3>
-                        <a href={"#"}>Twitter</a>
-                        <a href={"#"}>Instagram</a>
-                        <a href={"#"}>Dribbble</a>
+                        <a href={"#twitter"}>Twitter</a>
+                        <a href={"#instagram"}>Instagram</a>
+                        <a href={"#dribbble"}>Dribbble</a>
                     </div>
                 </div>
                 <div className={"Footer-container__desc"}>

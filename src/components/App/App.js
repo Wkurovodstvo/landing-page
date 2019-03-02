@@ -62,7 +62,7 @@ export default class App extends Component {
               <BottomHeader/>
               <Footer/>
           </div>
-        <div className={"App-chat"}>
+        <div className={"App-chat hide-mobile"}>
           <i className="far fa-comment fa-2x"/>
         </div>
       </div>
