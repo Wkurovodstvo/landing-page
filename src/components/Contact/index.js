@@ -30,7 +30,7 @@ export default class Contact extends Component {
               <textarea name="description" id="description" className="contact-input"></textarea>
             </div>
 
-            <div className="contact-div full">
+            <div className="contact-div half">
               <label htmlFor="budget">Budget</label>
               <select name="budget" id="budget" className="contact-input">
                 <option value="0">За спасибо</option>
@@ -40,7 +40,7 @@ export default class Contact extends Component {
               </select>
             </div>
             
-            <div className="contact-div full">
+            <div className="contact-div half">
              <label htmlFor="find">How did you find me?</label>
               <input type="text" id="find" placeholder="Ex. Dribble" className="contact-input"/>
             </div>
